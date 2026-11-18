@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "FramePico2 Expansion Card")
-		(date "2026-11-17")
-		(rev "0.4.2p")
+		(date "2026-11-18")
+		(rev "0.4.5p")
 		(company "Riscfruit Laboratory")
 		(comment 1 "License: CERN-OHL-S v2")
 		(comment 2 "Author: Tan Siret Akıncı")
