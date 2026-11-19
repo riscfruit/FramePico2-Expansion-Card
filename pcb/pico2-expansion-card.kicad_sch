@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "FramePico2 Expansion Card")
-		(date "2026-11-18")
-		(rev "0.4.5p")
+		(date "2026-11-20")
+		(rev "0.5.0p")
 		(company "Riscfruit Laboratory")
 		(comment 1 "License: CERN-OHL-S v2")
 		(comment 2 "Author: Tan Siret Akıncı")
@@ -4888,7 +4888,7 @@
 	)
 	(text "I2C0/UART0\n\"TREX\""
 		(exclude_from_sim no)
-		(at 247.65 110.998 0)
+		(at 248.92 127.508 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4899,7 +4899,7 @@
 	)
 	(text "Test points"
 		(exclude_from_sim no)
-		(at 147.32 146.304 0)
+		(at 182.626 78.994 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4910,7 +4910,7 @@
 	)
 	(text "SWD"
 		(exclude_from_sim no)
-		(at 200.406 107.188 0)
+		(at 201.676 123.698 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5128,7 +5128,7 @@
 		(uuid "70932d48-2b36-41b2-9224-a10ad4edfa62")
 	)
 	(junction
-		(at 196.85 118.11)
+		(at 198.12 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78174fc6-a3d1-477d-b59a-309d194edd5a")
@@ -5170,7 +5170,7 @@
 		(uuid "897041fc-c5bf-4758-b791-5f42008ec418")
 	)
 	(junction
-		(at 251.46 125.73)
+		(at 252.73 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96dc608c-6de5-4d3a-81ee-78bb7e8b94da")
@@ -5242,7 +5242,7 @@
 		(uuid "dca52551-f8cc-4408-bd02-ddc61bb3aa99")
 	)
 	(junction
-		(at 228.6 129.54)
+		(at 229.87 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e04703c1-9369-4f10-90f4-122f4490e550")
@@ -5260,7 +5260,7 @@
 		(uuid "e0e4e893-4489-4ba0-b258-3955d1cbae45")
 	)
 	(junction
-		(at 255.27 138.43)
+		(at 256.54 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1ff8cae-8cb3-435a-9a69-828c7deb545d")
@@ -5272,7 +5272,7 @@
 		(uuid "e5acf629-17bc-4530-9e2b-238ce456a573")
 	)
 	(junction
-		(at 259.08 128.27)
+		(at 260.35 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e802e8f5-06dc-4b56-8551-4092228bfa39")
@@ -5346,7 +5346,7 @@
 		(uuid "6a5bed7c-c612-46c8-a518-d66b0a26914e")
 	)
 	(no_connect
-		(at 201.93 129.54)
+		(at 203.2 146.05)
 		(uuid "6ef88b04-775a-4f32-bdbd-c3c657c9deb8")
 	)
 	(no_connect
@@ -5623,7 +5623,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 115.57) (xy 208.28 115.57)
+			(xy 186.69 132.08) (xy 209.55 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5640,6 +5640,16 @@
 			(type default)
 		)
 		(uuid "0d3a2c6f-4038-46ef-b92a-cd101acf04b7")
+	)
+	(wire
+		(pts
+			(xy 243.84 105.41) (xy 243.84 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11669610-b3da-4b24-9468-42899ade3ddd")
 	)
 	(wire
 		(pts
@@ -5823,7 +5833,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 142.24) (xy 222.25 142.24)
+			(xy 218.44 158.75) (xy 223.52 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5843,7 +5853,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 129.54) (xy 196.85 133.35)
+			(xy 198.12 146.05) (xy 198.12 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5893,7 +5903,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 123.19) (xy 267.97 123.19)
+			(xy 254 139.7) (xy 269.24 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5943,7 +5953,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 129.54) (xy 219.71 129.54)
+			(xy 229.87 146.05) (xy 220.98 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5963,7 +5973,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 130.81) (xy 251.46 125.73)
+			(xy 252.73 147.32) (xy 252.73 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5993,7 +6003,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 189.23) (xy 161.29 194.31)
+			(xy 227.33 105.41) (xy 227.33 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6003,7 +6013,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 189.23) (xy 147.32 194.31)
+			(xy 213.36 105.41) (xy 213.36 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6043,7 +6053,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 125.73) (xy 267.97 125.73)
+			(xy 247.65 142.24) (xy 269.24 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6093,7 +6103,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 110.49) (xy 186.69 110.49)
+			(xy 186.69 127) (xy 187.96 127)
 		)
 		(stroke
 			(width 0)
@@ -6193,7 +6203,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 110.49) (xy 194.31 113.03)
+			(xy 195.58 127) (xy 195.58 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6353,7 +6363,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 152.4) (xy 147.32 154.94)
+			(xy 182.88 88.9) (xy 182.88 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6373,7 +6383,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 137.16) (xy 222.25 137.16)
+			(xy 220.98 153.67) (xy 223.52 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6443,7 +6453,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 138.43) (xy 259.08 138.43)
+			(xy 256.54 154.94) (xy 260.35 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6483,7 +6493,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 152.4) (xy 161.29 154.94)
+			(xy 196.85 88.9) (xy 196.85 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6523,7 +6533,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 129.54) (xy 204.47 129.54)
+			(xy 203.2 146.05) (xy 205.74 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6583,7 +6593,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 120.65) (xy 267.97 120.65)
+			(xy 260.35 137.16) (xy 269.24 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6643,7 +6653,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 113.03) (xy 208.28 113.03)
+			(xy 195.58 129.54) (xy 209.55 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6653,7 +6663,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 138.43) (xy 255.27 138.43)
+			(xy 252.73 154.94) (xy 256.54 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6853,7 +6863,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 120.65) (xy 186.69 120.65)
+			(xy 186.69 137.16) (xy 187.96 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6963,7 +6973,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 118.11) (xy 196.85 121.92)
+			(xy 198.12 134.62) (xy 198.12 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6973,7 +6983,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 118.11) (xy 194.31 120.65)
+			(xy 195.58 134.62) (xy 195.58 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7003,7 +7013,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 138.43) (xy 228.6 139.7)
+			(xy 229.87 154.94) (xy 229.87 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7053,7 +7063,17 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 137.16) (xy 222.25 142.24)
+			(xy 257.81 105.41) (xy 257.81 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f34d0b-9f41-4f7d-8715-80682d93bd81")
+	)
+	(wire
+		(pts
+			(xy 223.52 153.67) (xy 223.52 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7073,7 +7093,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 118.11) (xy 208.28 118.11)
+			(xy 198.12 134.62) (xy 209.55 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7123,7 +7143,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 130.81) (xy 228.6 129.54)
+			(xy 229.87 147.32) (xy 229.87 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7263,7 +7283,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 139.7) (xy 255.27 138.43)
+			(xy 256.54 156.21) (xy 256.54 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7343,7 +7363,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 128.27) (xy 259.08 130.81)
+			(xy 260.35 144.78) (xy 260.35 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7473,7 +7493,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 166.37) (xy 147.32 171.45)
+			(xy 213.36 88.9) (xy 213.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7553,7 +7573,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 137.16) (xy 204.47 137.16)
+			(xy 198.12 153.67) (xy 205.74 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7593,7 +7613,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 166.37) (xy 161.29 171.45)
+			(xy 227.33 88.9) (xy 227.33 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7673,7 +7693,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 128.27) (xy 267.97 128.27)
+			(xy 247.65 144.78) (xy 269.24 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7773,7 +7793,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 118.11) (xy 196.85 118.11)
+			(xy 195.58 134.62) (xy 198.12 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7783,7 +7803,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 119.38) (xy 259.08 120.65)
+			(xy 260.35 135.89) (xy 260.35 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7803,7 +7823,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 119.38) (xy 252.73 123.19)
+			(xy 254 135.89) (xy 254 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7813,7 +7833,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 177.8) (xy 161.29 182.88)
+			(xy 196.85 105.41) (xy 196.85 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7853,7 +7873,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 177.8) (xy 147.32 182.88)
+			(xy 182.88 105.41) (xy 182.88 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7873,7 +7893,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 133.35) (xy 204.47 133.35)
+			(xy 198.12 149.86) (xy 205.74 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7903,7 +7923,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 127) (xy 228.6 129.54)
+			(xy 229.87 143.51) (xy 229.87 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8662,7 +8682,7 @@
 		(uuid "00f494ed-b2eb-4015-b17a-c9e64f843e09")
 	)
 	(label "GPIO17{slash}RX"
-		(at 161.29 182.88 0)
+		(at 196.85 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8692,7 +8712,7 @@
 		(uuid "0c8dd809-6f00-4662-9732-7f2456a7f4af")
 	)
 	(label "GPIO26"
-		(at 217.17 142.24 180)
+		(at 218.44 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8742,7 +8762,7 @@
 		(uuid "279c34ec-274e-4c42-8fb6-5e2781fcf7d4")
 	)
 	(label "GPIO28"
-		(at 185.42 120.65 180)
+		(at 186.69 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8761,8 +8781,8 @@
 		)
 		(uuid "32eaffb6-572b-4081-a211-2156992f2b10")
 	)
-	(label "SWDIO"
-		(at 196.85 118.11 0)
+	(label "DIO"
+		(at 198.12 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8862,7 +8882,7 @@
 		(uuid "45e47641-9fcc-4927-9bd5-ac1f491bf09f")
 	)
 	(label "GPIO16{slash}TX"
-		(at 147.32 182.88 0)
+		(at 182.88 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8972,7 +8992,7 @@
 		(uuid "6f6ee71d-12c8-46a1-b3cb-35432ee9f9a6")
 	)
 	(label "SWDIO"
-		(at 161.29 194.31 0)
+		(at 227.33 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9012,7 +9032,7 @@
 		(uuid "75753181-70c1-4faa-935a-dd7daf63226c")
 	)
 	(label "USB_D-"
-		(at 161.29 171.45 0)
+		(at 227.33 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9062,7 +9082,7 @@
 		(uuid "91d73de2-d4c7-496a-85b9-7e8c80d43071")
 	)
 	(label "SWCLK"
-		(at 147.32 194.31 0)
+		(at 213.36 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9102,7 +9122,7 @@
 		(uuid "a7e2b791-5f81-4514-b7e1-fa417d1da132")
 	)
 	(label "GPIO17{slash}RX"
-		(at 246.38 128.27 180)
+		(at 247.65 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9112,7 +9132,7 @@
 		(uuid "a91bb033-e7ee-4c58-9207-693e004bedb8")
 	)
 	(label "GPIO16{slash}TX"
-		(at 246.38 125.73 180)
+		(at 247.65 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9222,7 +9242,7 @@
 		(uuid "d4e49ed0-a377-4254-8c02-111318836265")
 	)
 	(label "USB_D+"
-		(at 147.32 171.45 0)
+		(at 213.36 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9232,7 +9252,7 @@
 		(uuid "d91c03d2-a0c6-4e35-9d28-83d17d7b4f7d")
 	)
 	(label "GPIO27"
-		(at 185.42 110.49 180)
+		(at 186.69 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9321,8 +9341,8 @@
 		)
 		(uuid "f10aa62f-01aa-44f7-9074-a82845a806c7")
 	)
-	(label "SWCLK"
-		(at 196.85 113.03 0)
+	(label "CLK"
+		(at 198.12 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9564,7 +9584,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 115.57 270)
+		(at 186.69 132.08 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9574,7 +9594,7 @@
 		(dnp no)
 		(uuid "06033b75-5468-482e-97da-235c0be3633c")
 		(property "Reference" "#PWR034"
-			(at 179.07 115.57 0)
+			(at 180.34 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9585,7 +9605,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 115.57 90)
+			(at 181.61 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9595,7 +9615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 115.57 0)
+			(at 186.69 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9606,7 +9626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 115.57 0)
+			(at 186.69 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9617,7 +9637,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 115.57 0)
+			(at 186.69 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9640,7 +9660,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 120.65 270)
+		(at 191.77 137.16 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9650,7 +9670,7 @@
 		(dnp no)
 		(uuid "086067e0-557c-4698-8004-279bff30a04d")
 		(property "Reference" "R17"
-			(at 190.5 118.618 90)
+			(at 191.77 135.128 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9660,7 +9680,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 190.5 123.19 90)
+			(at 191.77 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9670,7 +9690,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 190.5 118.872 90)
+			(at 191.77 135.382 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9681,7 +9701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 120.65 0)
+			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9692,7 +9712,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 120.65 0)
+			(at 191.77 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9702,7 +9722,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 190.5 120.65 90)
+			(at 191.77 137.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9713,7 +9733,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 190.5 120.65 90)
+			(at 191.77 137.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9724,7 +9744,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 190.5 120.65 90)
+			(at 191.77 137.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9735,7 +9755,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 190.5 120.65 90)
+			(at 191.77 137.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9746,7 +9766,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 190.5 120.65 90)
+			(at 191.77 137.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9773,7 +9793,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 110.49 270)
+		(at 191.77 127 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9783,7 +9803,7 @@
 		(dnp no)
 		(uuid "08ca5f96-bbe4-46e0-b143-454208fa598e")
 		(property "Reference" "R18"
-			(at 190.5 108.458 90)
+			(at 191.77 124.968 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9793,7 +9813,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 190.5 113.03 90)
+			(at 191.77 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9803,7 +9823,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 190.5 108.712 90)
+			(at 191.77 125.222 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9814,7 +9834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 110.49 0)
+			(at 191.77 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9825,7 +9845,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 110.49 0)
+			(at 191.77 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9835,7 +9855,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 190.5 110.49 90)
+			(at 191.77 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9846,7 +9866,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 190.5 110.49 90)
+			(at 191.77 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9857,7 +9877,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 190.5 110.49 90)
+			(at 191.77 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9868,7 +9888,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 190.5 110.49 90)
+			(at 191.77 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9879,7 +9899,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 190.5 110.49 90)
+			(at 191.77 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10311,7 +10331,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 137.16 270)
+		(at 198.12 153.67 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10321,7 +10341,7 @@
 		(dnp no)
 		(uuid "164ab9f2-fa90-4aca-9ce5-62b36a44ee18")
 		(property "Reference" "#PWR035"
-			(at 190.5 137.16 0)
+			(at 191.77 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10332,7 +10352,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 137.16 90)
+			(at 193.04 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10342,7 +10362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 137.16 0)
+			(at 198.12 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10353,7 +10373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 137.16 0)
+			(at 198.12 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10364,7 +10384,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 137.16 0)
+			(at 198.12 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11786,7 +11806,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 166.37 0)
+		(at 213.36 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11796,7 +11816,7 @@
 		(dnp no)
 		(uuid "4356a9dc-1ef6-49d9-bf0a-aaaa2442d888")
 		(property "Reference" "TP3"
-			(at 148.7932 163.3728 0)
+			(at 214.8332 85.9028 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11807,7 +11827,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 148.7932 165.6842 0)
+			(at 214.8332 88.2142 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11818,7 +11838,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 152.4 166.37 0)
+			(at 218.44 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11829,7 +11849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 166.37 0)
+			(at 218.44 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11840,7 +11860,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 166.37 0)
+			(at 213.36 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11850,7 +11870,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 147.32 166.37 0)
+			(at 213.36 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11861,7 +11881,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 147.32 166.37 0)
+			(at 213.36 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11872,7 +11892,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 147.32 166.37 0)
+			(at 213.36 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11883,7 +11903,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 147.32 166.37 0)
+			(at 213.36 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11894,7 +11914,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 147.32 166.37 0)
+			(at 213.36 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12053,7 +12073,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 255.27 139.7 180)
+		(at 256.54 156.21 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12063,7 +12083,7 @@
 		(dnp no)
 		(uuid "4663c8ac-fa14-49fa-bb28-157c5f6f496f")
 		(property "Reference" "#PWR033"
-			(at 255.27 135.89 0)
+			(at 256.54 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12074,7 +12094,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 255.524 144.018 0)
+			(at 256.794 160.528 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12084,7 +12104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 139.7 0)
+			(at 256.54 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12095,7 +12115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 139.7 0)
+			(at 256.54 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12106,7 +12126,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 255.27 139.7 0)
+			(at 256.54 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12780,7 +12800,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 213.36 115.57 0)
+		(at 214.63 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12790,7 +12810,7 @@
 		(dnp no)
 		(uuid "53db9f4c-e20c-42c7-a654-776f54fe3d06")
 		(property "Reference" "J1"
-			(at 214.63 114.2999 0)
+			(at 215.9 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12801,7 +12821,7 @@
 			)
 		)
 		(property "Value" "JST_01x03"
-			(at 207.01 121.158 0)
+			(at 208.28 137.668 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12812,7 +12832,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
-			(at 213.36 115.57 0)
+			(at 214.63 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12823,7 +12843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 115.57 0)
+			(at 214.63 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12834,7 +12854,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 213.36 115.57 0)
+			(at 214.63 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12845,7 +12865,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 213.36 115.57 0)
+			(at 214.63 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12856,7 +12876,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 213.36 115.57 0)
+			(at 214.63 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12867,7 +12887,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 213.36 115.57 0)
+			(at 214.63 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12878,7 +12898,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 213.36 115.57 0)
+			(at 214.63 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12889,7 +12909,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 213.36 115.57 0)
+			(at 214.63 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12919,7 +12939,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 161.29 189.23 0)
+		(at 227.33 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12929,7 +12949,7 @@
 		(dnp no)
 		(uuid "58aab14f-af6f-4bc9-b795-604f39edbf31")
 		(property "Reference" "TP8"
-			(at 162.7632 186.2328 0)
+			(at 228.8032 102.4128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12940,7 +12960,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 162.7632 188.5442 0)
+			(at 228.8032 104.7242 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12951,7 +12971,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 166.37 189.23 0)
+			(at 232.41 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12962,7 +12982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 189.23 0)
+			(at 232.41 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12973,7 +12993,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 189.23 0)
+			(at 227.33 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12983,7 +13003,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 161.29 189.23 0)
+			(at 227.33 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12994,7 +13014,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 161.29 189.23 0)
+			(at 227.33 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13005,7 +13025,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 161.29 189.23 0)
+			(at 227.33 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13016,7 +13036,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 161.29 189.23 0)
+			(at 227.33 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13027,7 +13047,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 161.29 189.23 0)
+			(at 227.33 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13545,7 +13565,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 161.29 166.37 0)
+		(at 227.33 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13555,7 +13575,7 @@
 		(dnp no)
 		(uuid "60f652a3-6c7d-4251-ba2f-0a05db576c9f")
 		(property "Reference" "TP4"
-			(at 162.7632 163.3728 0)
+			(at 228.8032 85.9028 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13566,7 +13586,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 162.7632 165.6842 0)
+			(at 228.8032 88.2142 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13577,7 +13597,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 166.37 166.37 0)
+			(at 232.41 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13588,7 +13608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 166.37 0)
+			(at 232.41 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13599,7 +13619,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 166.37 0)
+			(at 227.33 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13609,7 +13629,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 161.29 166.37 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13620,7 +13640,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 161.29 166.37 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13631,7 +13651,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 161.29 166.37 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13642,7 +13662,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 161.29 166.37 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13653,7 +13673,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 161.29 166.37 0)
+			(at 227.33 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13945,7 +13965,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 152.4 0)
+		(at 182.88 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13955,7 +13975,7 @@
 		(dnp no)
 		(uuid "733b2bd7-fe29-4470-97f6-a898bb57c3cc")
 		(property "Reference" "TP1"
-			(at 148.7932 149.4028 0)
+			(at 184.3532 85.9028 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13966,7 +13986,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 148.7932 151.7142 0)
+			(at 184.3532 88.2142 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13977,7 +13997,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 152.4 152.4 0)
+			(at 187.96 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13988,7 +14008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 152.4 0)
+			(at 187.96 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13999,7 +14019,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 152.4 0)
+			(at 182.88 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14009,7 +14029,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 147.32 152.4 0)
+			(at 182.88 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14020,7 +14040,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 147.32 152.4 0)
+			(at 182.88 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14031,7 +14051,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 147.32 152.4 0)
+			(at 182.88 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14042,7 +14062,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 147.32 152.4 0)
+			(at 182.88 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14053,7 +14073,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 147.32 152.4 0)
+			(at 182.88 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14431,6 +14451,84 @@
 			(project "pico2-expansion-card"
 				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+1V1_1")
+		(lib_id "power:+1V1")
+		(at 257.81 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "766072d2-9ba0-4dc5-bc7f-ec3497c996b4")
+		(property "Reference" "#PWR07"
+			(at 257.81 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V1"
+			(at 257.81 113.538 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
+			(at 257.81 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8437b0a6-c4d2-4b26-a2d1-55b3d001d547")
+		)
+		(instances
+			(project "pico2-expansion-card"
+				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15135,6 +15233,82 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 243.84 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8920b833-9bfd-446b-b332-d3623b4ab9b3")
+		(property "Reference" "#PWR029"
+			(at 243.84 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 243.459 113.6142 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "228f4d18-a88f-4763-859d-0362dab6a758")
+		)
+		(instances
+			(project "pico2-expansion-card"
+				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 160.02 26.67 0)
 		(unit 1)
@@ -15271,7 +15445,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 228.6 134.62 180)
+		(at 229.87 151.13 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15281,7 +15455,7 @@
 		(dnp no)
 		(uuid "8cf645db-3e42-49fc-812a-9f126c54f4a6")
 		(property "Reference" "C25"
-			(at 225.806 135.128 0)
+			(at 227.076 151.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15292,7 +15466,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 226.314 133.096 0)
+			(at 227.584 149.606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15303,7 +15477,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 227.6348 130.81 0)
+			(at 228.9048 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15314,7 +15488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 134.62 0)
+			(at 229.87 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15325,7 +15499,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 134.62 0)
+			(at 229.87 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15335,7 +15509,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 228.6 134.62 0)
+			(at 229.87 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15346,7 +15520,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 228.6 134.62 0)
+			(at 229.87 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15357,7 +15531,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 228.6 134.62 0)
+			(at 229.87 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15368,7 +15542,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 228.6 134.62 0)
+			(at 229.87 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15379,7 +15553,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 228.6 134.62 0)
+			(at 229.87 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15406,7 +15580,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 177.8 0)
+		(at 182.88 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15416,7 +15590,7 @@
 		(dnp no)
 		(uuid "8f4f3a32-32fa-4d85-b0aa-43eed4390764")
 		(property "Reference" "TP5"
-			(at 148.7932 174.8028 0)
+			(at 184.3532 102.4128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15427,7 +15601,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 148.7932 177.1142 0)
+			(at 184.3532 104.7242 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15438,7 +15612,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 152.4 177.8 0)
+			(at 187.96 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15449,7 +15623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 177.8 0)
+			(at 187.96 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15460,7 +15634,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 177.8 0)
+			(at 182.88 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15470,7 +15644,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 147.32 177.8 0)
+			(at 182.88 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15481,7 +15655,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 147.32 177.8 0)
+			(at 182.88 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15492,7 +15666,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 147.32 177.8 0)
+			(at 182.88 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15503,7 +15677,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 147.32 177.8 0)
+			(at 182.88 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15514,7 +15688,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 147.32 177.8 0)
+			(at 182.88 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15538,7 +15712,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 161.29 154.94 180)
+		(at 196.85 91.44 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15548,7 +15722,7 @@
 		(dnp no)
 		(uuid "8fa62019-8440-45a1-a40a-349d8fa5c038")
 		(property "Reference" "#PWR010"
-			(at 161.29 151.13 0)
+			(at 196.85 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15559,7 +15733,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 161.544 159.258 0)
+			(at 197.104 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15569,7 +15743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 154.94 0)
+			(at 196.85 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15580,7 +15754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 154.94 0)
+			(at 196.85 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15591,7 +15765,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 161.29 154.94 0)
+			(at 196.85 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15615,7 +15789,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 139.7 0)
+		(at 229.87 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15625,7 +15799,7 @@
 		(dnp no)
 		(uuid "92a9d2f4-e091-49ff-9dfc-555969b5b8dd")
 		(property "Reference" "#PWR036"
-			(at 228.6 146.05 0)
+			(at 229.87 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15636,7 +15810,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 144.272 0)
+			(at 229.87 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15646,7 +15820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 139.7 0)
+			(at 229.87 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15657,7 +15831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 139.7 0)
+			(at 229.87 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15668,7 +15842,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 139.7 0)
+			(at 229.87 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16370,6 +16544,138 @@
 			(project "pico2-expansion-card"
 				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 257.81 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5bb9f34-d101-4620-a514-70ff6b39922b")
+		(property "Reference" "TP10"
+			(at 259.2832 102.4128 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 259.2832 104.7242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 262.89 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 257.81 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 257.81 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 257.81 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 257.81 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 257.81 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0dbd28f1-ae20-4de8-bc10-3e71b965df2d")
+		)
+		(instances
+			(project "pico2-expansion-card"
+				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -17421,7 +17727,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 252.73 119.38 0)
+		(at 254 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17431,7 +17737,7 @@
 		(dnp no)
 		(uuid "baeb3783-fd20-4705-8c5e-be1a6887a63a")
 		(property "Reference" "#PWR014"
-			(at 252.73 123.19 0)
+			(at 254 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17442,7 +17748,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 252.476 115.062 0)
+			(at 253.746 131.572 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17452,7 +17758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 119.38 0)
+			(at 254 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17463,7 +17769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 119.38 0)
+			(at 254 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17474,7 +17780,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 252.73 119.38 0)
+			(at 254 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17498,7 +17804,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 251.46 134.62 180)
+		(at 252.73 151.13 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17508,7 +17814,7 @@
 		(dnp no)
 		(uuid "bc302fd5-94ba-4529-bb2b-44507ecd5f77")
 		(property "Reference" "R10"
-			(at 256.7178 134.62 90)
+			(at 257.9878 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17518,7 +17824,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 254.4064 134.62 90)
+			(at 255.6764 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17528,7 +17834,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 253.238 134.62 90)
+			(at 254.508 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17539,7 +17845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 134.62 0)
+			(at 252.73 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17550,7 +17856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 134.62 0)
+			(at 252.73 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17560,7 +17866,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 251.46 134.62 90)
+			(at 252.73 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17571,7 +17877,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 251.46 134.62 90)
+			(at 252.73 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17582,7 +17888,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 251.46 134.62 90)
+			(at 252.73 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17593,7 +17899,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 251.46 134.62 90)
+			(at 252.73 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17604,7 +17910,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 251.46 134.62 90)
+			(at 252.73 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17707,7 +18013,7 @@
 	)
 	(symbol
 		(lib_id "TECHPUBLIC:TP74AUP1T17C5")
-		(at 212.09 133.35 0)
+		(at 213.36 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17717,7 +18023,7 @@
 		(dnp no)
 		(uuid "c0647738-6a69-4f9d-b40c-b5ce76071551")
 		(property "Reference" "U1"
-			(at 212.09 126.238 0)
+			(at 213.36 142.748 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17727,7 +18033,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 212.09 133.35 0)
+			(at 213.36 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17737,7 +18043,7 @@
 			)
 		)
 		(property "Footprint" "pico2parts:TECH PUBLIC TP74AUP1T17C5"
-			(at 212.09 133.35 0)
+			(at 213.36 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17748,7 +18054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 133.35 0)
+			(at 213.36 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17759,7 +18065,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 133.35 0)
+			(at 213.36 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17770,7 +18076,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 212.09 133.35 0)
+			(at 213.36 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17781,7 +18087,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 212.09 133.35 0)
+			(at 213.36 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17792,7 +18098,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 212.09 133.35 0)
+			(at 213.36 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17803,7 +18109,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 212.09 133.35 0)
+			(at 213.36 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17814,7 +18120,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 212.09 133.35 0)
+			(at 213.36 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17850,7 +18156,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 196.85 125.73 0)
+		(at 198.12 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17860,7 +18166,7 @@
 		(dnp no)
 		(uuid "c3ace3e5-c5c5-40b6-8776-269468bf46e6")
 		(property "Reference" "R19"
-			(at 194.818 125.73 90)
+			(at 196.088 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17870,7 +18176,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 199.39 125.73 90)
+			(at 200.66 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17880,7 +18186,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 195.072 125.73 90)
+			(at 196.342 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17891,7 +18197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 125.73 0)
+			(at 198.12 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17902,7 +18208,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 125.73 0)
+			(at 198.12 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17912,7 +18218,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 196.85 125.73 90)
+			(at 198.12 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17923,7 +18229,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 196.85 125.73 90)
+			(at 198.12 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17934,7 +18240,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 196.85 125.73 90)
+			(at 198.12 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17945,7 +18251,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 196.85 125.73 90)
+			(at 198.12 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17956,7 +18262,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 196.85 125.73 90)
+			(at 198.12 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18118,7 +18424,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 161.29 152.4 0)
+		(at 196.85 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18128,7 +18434,7 @@
 		(dnp no)
 		(uuid "c5f995bb-77c3-4990-ae17-25c535fb6ee8")
 		(property "Reference" "TP2"
-			(at 162.7632 149.4028 0)
+			(at 198.3232 85.9028 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18139,7 +18445,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 162.7632 151.7142 0)
+			(at 198.3232 88.2142 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18150,7 +18456,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 166.37 152.4 0)
+			(at 201.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18161,7 +18467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 152.4 0)
+			(at 201.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18172,7 +18478,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 152.4 0)
+			(at 196.85 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18182,7 +18488,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 161.29 152.4 0)
+			(at 196.85 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18193,7 +18499,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 161.29 152.4 0)
+			(at 196.85 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18204,7 +18510,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 161.29 152.4 0)
+			(at 196.85 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18215,7 +18521,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 161.29 152.4 0)
+			(at 196.85 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18226,7 +18532,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 161.29 152.4 0)
+			(at 196.85 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19538,6 +19844,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 243.84 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d135ebb5-6bde-4247-ae96-eeef1121a751")
+		(property "Reference" "TP9"
+			(at 245.3132 102.4128 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 245.3132 104.7242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 248.92 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 243.84 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 243.84 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 243.84 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 243.84 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 243.84 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3247bd17-9110-40f8-8026-cdcac8cdcaf3")
+		)
+		(instances
+			(project "pico2-expansion-card"
+				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 36.83 177.165 0)
 		(unit 1)
@@ -19615,7 +20053,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 189.23 0)
+		(at 213.36 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19625,7 +20063,7 @@
 		(dnp no)
 		(uuid "d6c6fa50-321e-4167-8248-c94e33767c98")
 		(property "Reference" "TP7"
-			(at 148.7932 186.2328 0)
+			(at 214.8332 102.4128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19636,7 +20074,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 148.7932 188.5442 0)
+			(at 214.8332 104.7242 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19647,7 +20085,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 152.4 189.23 0)
+			(at 218.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19658,7 +20096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 189.23 0)
+			(at 218.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19669,7 +20107,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 189.23 0)
+			(at 213.36 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19679,7 +20117,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 147.32 189.23 0)
+			(at 213.36 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19690,7 +20128,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 147.32 189.23 0)
+			(at 213.36 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19701,7 +20139,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 147.32 189.23 0)
+			(at 213.36 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19712,7 +20150,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 147.32 189.23 0)
+			(at 213.36 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19723,7 +20161,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 147.32 189.23 0)
+			(at 213.36 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19747,7 +20185,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 154.94 0)
+		(at 182.88 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19757,7 +20195,7 @@
 		(dnp no)
 		(uuid "dc9a6eb6-d8f8-4c3d-97f2-79fd97aa29f1")
 		(property "Reference" "#PWR021"
-			(at 147.32 161.29 0)
+			(at 182.88 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19768,7 +20206,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.447 159.3342 0)
+			(at 183.007 95.8342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19778,7 +20216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 154.94 0)
+			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19789,7 +20227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 154.94 0)
+			(at 182.88 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19800,7 +20238,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 154.94 0)
+			(at 182.88 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19900,7 +20338,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 228.6 127 0)
+		(at 229.87 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19911,7 +20349,7 @@
 		(fields_autoplaced yes)
 		(uuid "df938879-a963-48c7-9feb-fd35da2d3100")
 		(property "Reference" "#PWR020"
-			(at 228.6 130.81 0)
+			(at 229.87 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19922,7 +20360,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 228.6 121.92 0)
+			(at 229.87 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19932,7 +20370,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 127 0)
+			(at 229.87 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19943,7 +20381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 127 0)
+			(at 229.87 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19954,7 +20392,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 228.6 127 0)
+			(at 229.87 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20288,7 +20726,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 161.29 177.8 0)
+		(at 196.85 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20298,7 +20736,7 @@
 		(dnp no)
 		(uuid "e9bf7eff-9e1f-4049-88db-43c0956a8404")
 		(property "Reference" "TP6"
-			(at 162.7632 174.8028 0)
+			(at 198.3232 102.4128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20309,7 +20747,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 162.7632 177.1142 0)
+			(at 198.3232 104.7242 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20320,7 +20758,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 166.37 177.8 0)
+			(at 201.93 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20331,7 +20769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 177.8 0)
+			(at 201.93 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20342,7 +20780,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 177.8 0)
+			(at 196.85 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20352,7 +20790,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 161.29 177.8 0)
+			(at 196.85 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20363,7 +20801,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 161.29 177.8 0)
+			(at 196.85 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20374,7 +20812,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 161.29 177.8 0)
+			(at 196.85 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20385,7 +20823,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 161.29 177.8 0)
+			(at 196.85 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20396,7 +20834,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 161.29 177.8 0)
+			(at 196.85 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20420,7 +20858,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 273.05 123.19 0)
+		(at 274.32 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20430,7 +20868,7 @@
 		(dnp no)
 		(uuid "ee35fe08-a951-4444-9df4-f3ebca10b758")
 		(property "Reference" "J2"
-			(at 274.32 123.1899 0)
+			(at 275.59 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20441,7 +20879,7 @@
 			)
 		)
 		(property "Value" "JST_01x04"
-			(at 266.954 130.81 0)
+			(at 268.224 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20452,7 +20890,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
-			(at 273.05 123.19 0)
+			(at 274.32 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20463,7 +20901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 123.19 0)
+			(at 274.32 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20474,7 +20912,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 273.05 123.19 0)
+			(at 274.32 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20485,7 +20923,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 273.05 123.19 0)
+			(at 274.32 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20496,7 +20934,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 273.05 123.19 0)
+			(at 274.32 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20507,7 +20945,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 273.05 123.19 0)
+			(at 274.32 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20518,7 +20956,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 273.05 123.19 0)
+			(at 274.32 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20529,7 +20967,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 273.05 123.19 0)
+			(at 274.32 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21412,7 +21850,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 259.08 134.62 180)
+		(at 260.35 151.13 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21422,7 +21860,7 @@
 		(dnp no)
 		(uuid "fd16a8d2-231a-4ebe-8750-be3e4469586a")
 		(property "Reference" "R16"
-			(at 264.3378 134.62 90)
+			(at 265.6078 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21432,7 +21870,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 262.0264 134.62 90)
+			(at 263.2964 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21442,7 +21880,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 260.858 134.62 90)
+			(at 262.128 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21453,7 +21891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 134.62 0)
+			(at 260.35 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21464,7 +21902,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 134.62 0)
+			(at 260.35 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21474,7 +21912,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 259.08 134.62 90)
+			(at 260.35 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21485,7 +21923,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 259.08 134.62 90)
+			(at 260.35 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21496,7 +21934,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 259.08 134.62 90)
+			(at 260.35 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21507,7 +21945,7 @@
 			)
 		)
 		(property "KLC_S4.2_DVDD" ""
-			(at 259.08 134.62 90)
+			(at 260.35 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21518,7 +21956,7 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
-			(at 259.08 134.62 90)
+			(at 260.35 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21736,7 +22174,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 119.38 180)
+		(at 260.35 135.89 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21746,7 +22184,7 @@
 		(dnp no)
 		(uuid "ff235ae0-e2fe-4b7e-aa2e-0679475e8912")
 		(property "Reference" "#PWR030"
-			(at 259.08 113.03 0)
+			(at 260.35 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21757,7 +22195,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 115.062 0)
+			(at 260.35 131.572 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21767,7 +22205,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 119.38 0)
+			(at 260.35 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21778,7 +22216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 119.38 0)
+			(at 260.35 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21789,7 +22227,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 119.38 0)
+			(at 260.35 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
