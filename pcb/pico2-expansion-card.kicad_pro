@@ -291,7 +291,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.5.0p"
+      "sch_revision": "0.6.0p"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -583,7 +583,7 @@
       "netlist": "",
       "plot": "gerber/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "pico2-expansion-card.step",
       "vrml": "../../../framepico2-expansion-card.wrl"
     },
     "page_layout_descr_file": ""
@@ -784,7 +784,7 @@
         "uuid": "298f0c21-f8de-4062-a465-7d71ba12f866"
       }
     ],
-    "used_designators": "#PWR7,#PWR29,J3,TP5-12,U3",
+    "used_designators": "#PWR7,#PWR19,#PWR29,#PWR37-38,J3,SW1,TP5-12,U3",
     "variants": []
   },
   "sheets": [

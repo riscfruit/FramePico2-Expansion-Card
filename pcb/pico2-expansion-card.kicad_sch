@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "FramePico2 Expansion Card")
-		(date "2026-11-20")
-		(rev "0.5.0p")
+		(date "2026-11-25")
+		(rev "0.6.0p")
 		(company "Riscfruit Laboratory")
 		(comment 1 "License: CERN-OHL-S v2")
 		(comment 2 "Author: Tan Siret Akıncı")
@@ -3787,6 +3787,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "pico2symbols:ALPSALPINE_toggle"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -4.572 -3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ALPSALPINE_toggle_0_1"
+				(rectangle
+					(start -5.08 1.27)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 -2.54)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ALPSALPINE_toggle_1_1"
+				(pin input line
+					(at -2.54 3.81 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 3.81 270)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "M"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "pico2symbols:korean_type-c_top_mount"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4800,7 +4977,7 @@
 	)
 	(text "Q2B - pulls nCS to GND"
 		(exclude_from_sim no)
-		(at 114.3 178.435 0)
+		(at 106.934 168.148 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4853,6 +5030,17 @@
 		)
 		(uuid "7be7b7cd-bb2a-4efe-a9fe-2333fc15afcf")
 	)
+	(text "BOOT+RST"
+		(exclude_from_sim no)
+		(at 161.29 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c682422-c80f-49e5-b2c8-187e38c5fc3f")
+	)
 	(text "Reset / Boot Circuit"
 		(exclude_from_sim no)
 		(at 14.605 137.16 0)
@@ -4897,6 +5085,28 @@
 		)
 		(uuid "a3477f01-1a04-4e35-80cf-bf8fbb8f2095")
 	)
+	(text "Toggle"
+		(exclude_from_sim no)
+		(at 143.764 146.304 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "a543cf0c-4877-4433-97a7-743a3a822d83")
+	)
+	(text "GPIO9"
+		(exclude_from_sim no)
+		(at 147.828 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a644c780-d1df-4a1f-8382-73445c94b5c6")
+	)
 	(text "Test points"
 		(exclude_from_sim no)
 		(at 182.626 78.994 0)
@@ -4940,6 +5150,17 @@
 			(justify left bottom)
 		)
 		(uuid "e86586b1-a6e0-498a-86e6-8214da111790")
+	)
+	(text "Toggle button functionality"
+		(exclude_from_sim no)
+		(at 144.272 149.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f81c78e9-be88-4827-9369-ef1af8f45161")
 	)
 	(junction
 		(at 231.14 39.37)
@@ -5370,10 +5591,6 @@
 		(uuid "99451532-7664-4aab-8f5f-84f2e8f59d5d")
 	)
 	(no_connect
-		(at 168.91 80.01)
-		(uuid "9ea857a7-1fc5-4460-bd6e-e8a85fd60087")
-	)
-	(no_connect
 		(at 168.91 82.55)
 		(uuid "b9f3493a-8fef-4a47-8823-3a488c4355bd")
 	)
@@ -5493,6 +5710,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 179.07) (xy 158.75 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04057c8a-5429-4740-a3f4-d755f2b86ded")
+	)
+	(wire
+		(pts
 			(xy 86.36 24.13) (xy 86.36 21.59)
 		)
 		(stroke
@@ -5593,7 +5820,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 170.18) (xy 20.32 174.625)
+			(xy 20.32 170.18) (xy 20.32 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6113,13 +6340,13 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 184.785) (xy 20.32 187.325)
+			(xy 161.29 162.56) (xy 161.29 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ce50a2a-b0df-4fdd-8ffc-0dcd50e7ff79")
+		(uuid "3de94b88-c0e8-4749-9950-32599aa9f075")
 	)
 	(wire
 		(pts
@@ -6280,6 +6507,16 @@
 			(type default)
 		)
 		(uuid "4c1f7d34-3acc-4c4c-9c14-84e5732f9f79")
+	)
+	(wire
+		(pts
+			(xy 158.75 162.56) (xy 158.75 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c84b666-3633-4082-acca-5094b8980167")
 	)
 	(wire
 		(pts
@@ -6833,6 +7070,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 157.48) (xy 151.13 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ed5c1b4-755d-479a-8d54-139e939db2ba")
+	)
+	(wire
+		(pts
 			(xy 63.5 86.36) (xy 63.5 87.63)
 		)
 		(stroke
@@ -7110,6 +7357,16 @@
 			(type default)
 		)
 		(uuid "9473d4d6-42b4-4660-a835-de9f00958f55")
+	)
+	(wire
+		(pts
+			(xy 156.21 162.56) (xy 156.21 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c4a77b-094f-4a43-9a14-c3acdceb3d79")
 	)
 	(wire
 		(pts
@@ -7660,6 +7917,16 @@
 			(type default)
 		)
 		(uuid "d4ed8068-df6a-4d02-a026-b74000561d1b")
+	)
+	(wire
+		(pts
+			(xy 166.37 157.48) (xy 168.91 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d528791e-0517-48a2-a866-5cdac3ee9f18")
 	)
 	(wire
 		(pts
@@ -8851,16 +9118,6 @@
 		)
 		(uuid "3bed81e4-dfae-40fe-8403-18a9f98fc5cf")
 	)
-	(label "GPIO9"
-		(at 168.91 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3d84bec3-f9bb-4e84-ac9d-3ed67ae8d16b")
-	)
 	(label "~{USB_BOOT}"
 		(at 237.49 107.95 0)
 		(effects
@@ -8961,16 +9218,6 @@
 		)
 		(uuid "541bd408-7f8d-4934-8872-5b6323b9eddd")
 	)
-	(label "SWITCH"
-		(at 21.59 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "56a63fe2-586e-4f62-a03e-4991c529b612")
-	)
 	(label "GPIO26"
 		(at 168.91 125.73 180)
 		(effects
@@ -9031,6 +9278,16 @@
 		)
 		(uuid "6f7ffd70-ba88-486b-8e45-397089c44870")
 	)
+	(label "SWITCH1"
+		(at 20.32 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "70f11f24-9d4c-4bf3-b555-662a42359fbf")
+	)
 	(label "GPIO8"
 		(at 168.91 77.47 180)
 		(effects
@@ -9070,6 +9327,16 @@
 			(justify left bottom)
 		)
 		(uuid "7a14bc9f-08cc-4508-9689-f4014f723f09")
+	)
+	(label "SWITCH1"
+		(at 161.29 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7eaa501c-6631-4920-b89b-1638a33cb7a7")
 	)
 	(label "GPIO11"
 		(at 168.91 85.09 180)
@@ -9130,6 +9397,16 @@
 			(justify right bottom)
 		)
 		(uuid "95b54f80-8fa8-4a4c-957b-786bac229bb1")
+	)
+	(label "SWITCH2"
+		(at 168.91 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d08c61f-cc4c-4905-bd31-cfac36c584f7")
 	)
 	(label "GPIO13"
 		(at 168.91 90.17 180)
@@ -9220,6 +9497,16 @@
 			(justify right bottom)
 		)
 		(uuid "c1a67393-4786-4629-9a24-749a65ce7779")
+	)
+	(label "SWITCH2"
+		(at 156.21 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c406b8d9-49bf-4684-8bd3-a626adc6e487")
 	)
 	(label "SWCLK"
 		(at 88.9 128.27 0)
@@ -10716,6 +11003,82 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 168.91 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1da19921-7070-44d9-8bdc-6d1256a5fe75")
+		(property "Reference" "#PWR038"
+			(at 175.26 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.736 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a064cb84-c6e0-4a14-befd-6d6c9afca9ac")
+		)
+		(instances
+			(project "pico2-expansion-card"
+				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 45.72 27.94 180)
 		(unit 1)
@@ -11685,6 +12048,82 @@
 			(project "pico2-expansion-card"
 				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d55a78d-0efa-4112-9053-bd723c6c2c07")
+		(property "Reference" "#PWR019"
+			(at 158.75 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.877 186.0042 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d42cf2d1-a461-438b-931c-da9a29ed570c")
+		)
+		(instances
+			(project "pico2-expansion-card"
+				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -13104,6 +13543,142 @@
 			(project "pico2-expansion-card"
 				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
 					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 158.75 173.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c0f670d-6026-476f-b6d1-084b25ddcd96")
+		(property "Reference" "SW1"
+			(at 159.893 173.1553 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 159.893 175.6922 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "pico2parts:BUTTON-SW-SMD_2P-TS24CA"
+			(at 153.67 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 158.75 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" ""
+			(at 158.75 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" ""
+			(at 158.75 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 158.75 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_LX" ""
+			(at 158.75 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9285d84e-ea45-4a50-8486-ccdf3b0d5c40")
+		)
+		(pin "2"
+			(uuid "ed0f8834-4947-4663-9c46-454cced67d6c")
+		)
+		(instances
+			(project "pico2-expansion-card"
+				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -16511,82 +17086,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 20.32 187.325 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9b52acca-1572-4174-81f0-a66b310c5e7f")
-		(property "Reference" "#PWR019"
-			(at 20.32 193.675 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 20.447 191.7192 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 187.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 187.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 20.32 187.325 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8619f1c5-22a1-4d99-bc95-ce5dbbac6721")
-		)
-		(instances
-			(project "pico2-expansion-card"
-				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 66.04 27.94 180)
 		(unit 1)
@@ -18102,6 +18601,95 @@
 			(project "pico2-expansion-card"
 				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pico2symbols:ALPSALPINE_toggle")
+		(at 158.75 158.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd653b15-54e0-42e5-b45e-4126de1324f8")
+		(property "Reference" "U3"
+			(at 158.75 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 158.75 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pico2parts:SW-SMD_SSAJ120100"
+			(at 158.75 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "496c7317-3251-4020-b4f0-ddbd33ee38bd")
+		)
+		(pin "2"
+			(uuid "a88986c9-b459-4e21-99e4-f62a796b18c4")
+		)
+		(pin "5"
+			(uuid "be78dba3-8af2-4731-b950-929d8eb28ef6")
+		)
+		(pin "C"
+			(uuid "5f772098-17ac-4628-8c26-57b9ab244fe4")
+		)
+		(pin "4"
+			(uuid "074de414-5390-4a50-9d44-cc016a86312d")
+		)
+		(instances
+			(project "pico2-expansion-card"
+				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -21494,8 +22082,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 20.32 179.705 90)
+		(lib_id "power:GND")
+		(at 148.59 157.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21503,32 +22091,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f92512bc-1413-4c92-8fbf-a38f343b154e")
-		(property "Reference" "SW1"
-			(at 21.463 178.8703 90)
+		(uuid "f833d738-5f53-4840-b4e1-824eaf34dfbb")
+		(property "Reference" "#PWR037"
+			(at 142.24 157.48 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 21.463 181.4072 90)
+		(property "Value" "GND"
+			(at 143.764 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "pico2parts:BUTTON-SW-SMD_2P-TS24CA"
-			(at 15.24 179.705 0)
+		(property "Footprint" ""
+			(at 148.59 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21539,7 +22125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.24 179.705 0)
+			(at 148.59 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21550,62 +22136,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 179.705 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 20.32 179.705 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" ""
-			(at 20.32 179.705 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier Part" ""
-			(at 20.32 179.705 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_DVDD" ""
-			(at 20.32 179.705 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.2_VREG_LX" ""
-			(at 20.32 179.705 90)
-			(hide yes)
+			(at 148.59 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21615,15 +22146,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9285a03-9102-427b-95ea-dfb88d725583")
-		)
-		(pin "2"
-			(uuid "5ba0b693-ace9-495a-8796-6384ee276edd")
+			(uuid "9ef634c5-4760-4dff-9454-88eea83e5c08")
 		)
 		(instances
 			(project "pico2-expansion-card"
 				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
-					(reference "SW1")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
