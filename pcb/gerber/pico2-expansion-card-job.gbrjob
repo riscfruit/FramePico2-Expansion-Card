@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "10.0.1"
+      "Version": "10.0.8"
     },
-    "CreationDate": "2026-10-20T01:27:50+03:00"
+    "CreationDate": "2026-11-27T02:22:40+03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "pico2-expansion-card",
       "GUID": "7069636f-322d-4657-9870-616e73696f6e",
-      "Revision": "v0.4.0p"
+      "Revision": "v0.6.0p"
     },
     "Size": {
       "X": 26.254,

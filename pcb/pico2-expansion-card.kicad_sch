@@ -3890,6 +3890,24 @@
 					)
 				)
 				(pin input line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 2.54 3.81 270)
 					(length 2.54)
 					(name "B"
@@ -3899,7 +3917,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3936,24 +3954,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9854,6 +9854,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 76.2 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "14e50e03-2161-44d4-b07f-33fad262445e")
 		)
@@ -10139,6 +10150,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 191.77 137.16 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9664a875-4fe9-4c6c-825c-61ecfa5de492")
 		)
@@ -10262,6 +10284,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 191.77 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 191.77 127 90)
 			(hide yes)
 			(show_name no)
@@ -10407,6 +10440,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 229.87 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0a510608-38e0-47d7-a5d6-fb075bc48fa6")
 		)
@@ -10542,6 +10586,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 24.13 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5ee8b811-feb2-4dca-8803-450658c7c1f0")
 		)
@@ -10667,6 +10722,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 107.95 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 107.95 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10888,6 +10954,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 241.3 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "66de256c-fba0-4b4b-b131-6f402f00a556")
 		)
@@ -11013,6 +11090,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 34.29 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 34.29 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11224,6 +11312,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 45.72 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 45.72 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11599,6 +11698,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 171.45 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "611c0301-9fdc-4fcc-8aef-69eaa1b82102")
 		)
@@ -11783,6 +11893,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 34.29 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 34.29 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -11986,6 +12107,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 78.105 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 78.105 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -12439,6 +12571,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 223.52 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "16d69151-16d3-4211-90e5-9aacd792c85f")
 		)
@@ -12561,6 +12704,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 97.79 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 97.79 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -12784,6 +12938,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 38.1 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6fe388d7-044f-4d7d-8afd-12f44ada5bc7")
 		)
@@ -12975,6 +13140,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 88.265 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "34ad6cde-0fe9-41b0-a7e2-11a2fe003291")
 		)
@@ -13100,6 +13276,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 90.17 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 90.17 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -13298,6 +13485,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 71.12 173.355 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f4bedfc4-99cb-4c6b-a07b-73e4665d31f5")
 		)
@@ -13424,6 +13622,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 214.63 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 214.63 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -13572,6 +13781,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 210.82 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5209d169-6cd8-4c64-9ef3-1b43146b6b1e")
 		)
@@ -13695,6 +13915,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 158.75 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 158.75 173.99 90)
 			(hide yes)
 			(show_name no)
@@ -13916,6 +14147,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 276.86 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b14f2f7e-e6d5-4655-a9a3-1da39ff5be0e")
 		)
@@ -14109,6 +14351,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 59.69 175.895 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2f8dfa45-14b0-4de4-b3b0-e7b73da81a0a")
 		)
@@ -14246,6 +14499,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 265.43 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 265.43 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14466,6 +14730,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 237.49 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "53a60eb8-d001-4938-8184-8f6733cb83b9")
 		)
@@ -14586,6 +14861,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 57.15 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 57.15 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -14721,6 +15007,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 86.36 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 86.36 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -14934,6 +15231,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 196.85 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 196.85 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -15290,6 +15598,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 58.42 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8760d1d7-d1b6-495e-a47d-7af9dbe38a87")
 		)
@@ -15515,6 +15834,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 55.88 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9b97c8bb-7b51-4675-a429-ba5a42f34828")
 		)
@@ -15696,6 +16026,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 173.99 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 173.99 86.995 0)
 			(hide yes)
 			(show_name no)
@@ -16049,6 +16390,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 60.96 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "36d07afe-9c85-4980-afea-4ba59d1e745b")
 		)
@@ -16250,6 +16602,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 259.08 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16480,6 +16843,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 160.02 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "062e1e6e-f31f-42a4-9ef5-a56ac3b20247")
 		)
@@ -16615,6 +16989,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 229.87 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1a3c5e5a-13d9-4aaf-90e5-bd83c9b9b54c")
 		)
@@ -16740,6 +17125,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 251.46 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 251.46 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -17095,6 +17491,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 108.585 173.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dfdaa22a-0489-48da-8a56-737e4c4366e1")
 		)
@@ -17242,6 +17649,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 17.78 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "693d775c-f1d1-4fba-988c-67c367311f56")
 		)
@@ -17365,6 +17783,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 88.9 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 88.9 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -17510,6 +17939,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 66.04 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "57782f73-4c07-4c7c-ab7d-86e590cd663e")
 		)
@@ -17645,6 +18085,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 237.49 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0dbd28f1-ae20-4de8-bc10-3e71b965df2d")
 		)
@@ -17767,6 +18218,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 39.37 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 39.37 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -18071,6 +18533,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 229.87 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B3"
 			(uuid "dc3e6f53-dab1-40ff-bb87-af8dd17dc7dd")
 		)
@@ -18235,6 +18708,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 24.13 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 24.13 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -18686,6 +19170,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 27.94 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d6e046ce-2723-454c-b5f3-4ecab67ecbb9")
 		)
@@ -18896,6 +19391,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 252.73 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "368acde2-f360-4aae-8b53-c10e55d6160a")
 		)
@@ -18906,95 +19412,6 @@
 			(project "pico2-expansion-card"
 				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pico2symbols:ALPSALPINE_toggle")
-		(at 158.75 158.75 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd653b15-54e0-42e5-b45e-4126de1324f8")
-		(property "Reference" "U3"
-			(at 158.75 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 158.75 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "pico2parts:SW-SMD_SSAJ120100"
-			(at 158.75 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "496c7317-3251-4020-b4f0-ddbd33ee38bd")
-		)
-		(pin "2"
-			(uuid "a88986c9-b459-4e21-99e4-f62a796b18c4")
-		)
-		(pin "5"
-			(uuid "be78dba3-8af2-4731-b950-929d8eb28ef6")
-		)
-		(pin "C"
-			(uuid "5f772098-17ac-4628-8c26-57b9ab244fe4")
-		)
-		(pin "4"
-			(uuid "074de414-5390-4a50-9d44-cc016a86312d")
-		)
-		(instances
-			(project "pico2-expansion-card"
-				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -19195,6 +19612,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 213.36 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "4eca3e72-374c-4037-8920-e2fab2a00ffb")
 		)
@@ -19327,6 +19755,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 198.12 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 198.12 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -19472,6 +19911,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 118.11 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f9185963-e191-41ff-8e0d-11dae261a561")
 		)
@@ -19607,6 +20057,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 210.82 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9a2d3d74-3820-4fb2-8d5a-c0232dc617e9")
 		)
@@ -19729,6 +20190,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 148.59 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 148.59 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -19930,6 +20402,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 20.32 159.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ad242b7e-b546-45b9-b01e-f752740a4f94")
 		)
@@ -20121,6 +20604,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 111.125 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "13fc2e7f-f934-4c90-9091-68961ee7e8d2")
 		)
@@ -20246,6 +20740,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 251.46 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 251.46 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -20434,6 +20939,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 36.83 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 36.83 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -20723,6 +21239,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 45.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 45.72 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -21025,6 +21552,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 63.5 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2ad925c6-2bc3-478f-bae9-6764eeb14e21")
 		)
@@ -21150,6 +21688,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 223.52 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 223.52 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -21358,6 +21907,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 196.85 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 196.85 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -22041,6 +22601,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 265.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e156c7fb-f070-47f9-9295-367402a2977b")
 		)
@@ -22048,6 +22619,95 @@
 			(project "pico2-expansion-card"
 				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
 					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pico2symbols:ALPSALPINE_toggle")
+		(at 158.75 158.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea31fffe-5200-4ef5-b9ab-f8ec2a262899")
+		(property "Reference" "U3"
+			(at 158.75 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 158.75 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "pico2parts:SW-SMD_SSAJ120100"
+			(at 158.75 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75a3fd78-d81d-420f-9b74-cf51a03b55d3")
+		)
+		(pin "5"
+			(uuid "970308ee-13f5-4e94-a70d-9303f8873fc7")
+		)
+		(pin "4"
+			(uuid "eab33ddb-7553-42af-bc8a-61dc8e494e53")
+		)
+		(pin "2"
+			(uuid "1fd6e081-d995-42b9-a8a8-e11aaa92548e")
+		)
+		(pin "3"
+			(uuid "81cf91af-3c02-44ed-a2bf-cad289686831")
+		)
+		(instances
+			(project "pico2-expansion-card"
+				(path "/298f0c21-f8de-4062-a465-7d71ba12f866"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -22164,6 +22824,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 274.32 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 274.32 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -22361,6 +23032,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 98.425 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 98.425 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -22574,6 +23256,17 @@
 			)
 		)
 		(property "Supplier Part" ""
+			(at 128.27 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 128.27 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -22894,6 +23587,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 88.9 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ed579174-7b48-4dae-a3a9-f1e5f20e7c7e")
 		)
@@ -23103,6 +23807,17 @@
 				)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 260.35 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8772b8f5-dc4b-4f1c-8fdd-d24d54ac42cb")
 		)
@@ -23284,6 +23999,17 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_LX" ""
+			(at 78.105 186.055 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 78.105 186.055 0)
 			(hide yes)
 			(show_name no)
